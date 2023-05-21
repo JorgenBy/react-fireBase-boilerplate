@@ -47,19 +47,19 @@ export default function DashNavbar() {
     {
       admin: false,
       icon: <FiEdit2 />,
-      label: 'Redigera Profil',
+      label: 'Edit Profile',
       onClick: () => navigate('/update-profile'),
     },
     {
       admin: false,
       icon: <FiLogOut />,
-      label: `Logga ut`,
+      label: `Logout`,
       onClick: () => handleLogout(),
     },
     {
       admin: true,
       icon: <GrUserAdmin />,
-      label: 'Admin verktyg',
+      label: 'Admin tools',
       onClick: () => navigate('/adminpanel'),
     },
   ];
