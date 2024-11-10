@@ -1,9 +1,9 @@
 import { useEffect, useRef, useState } from 'react'
-import { useAuth } from '../contexts/AuthContext'
+import { useAuth } from '../../contexts/AuthContext'
 import { Link, useNavigate } from 'react-router-dom'
 import { LockClosedIcon } from '@heroicons/react/20/solid'
-import { ETypes, MessageCard } from './Atoms/MessageCard'
-import { SpacerWithText } from './Atoms/SpacerWithText'
+import { ETypes, MessageCard } from '../Atoms/MessageCard'
+import { SpacerWithText } from '../Atoms/SpacerWithText'
 import { SocialSignIn } from './SocialSignIn'
 
 export default function Login() {
